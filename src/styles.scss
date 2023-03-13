@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import './app.theme.scss';
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    background: #eee;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #5e5e5e;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #88dd88;
+}
+
