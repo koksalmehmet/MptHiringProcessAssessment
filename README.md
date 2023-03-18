@@ -1,21 +1,28 @@
-MptLayout
+Mpt Layout
 
-This project was generated with Angular CLI version 13.3.10.
-Development server
+This project is an Angular application for Mpt, Inc. It provides a layout for the Mpt web application.
+Requirements
 
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The application will automatically reload if you change any of the source files.
-Code scaffolding
+To run this project, you will need:
 
-Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
-Build
+Node.js
+Angular CLI 13.3.10
 
-Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
-Running unit tests
+Installation
 
-Run ng test to execute the unit tests via Karma.
-Running end-to-end tests
+To install the necessary dependencies, run the following command:
 
-Run ng e2e to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-Further help
+npm install
 
-To get more help on the Angular CLI use ng help or go check out the Angular CLI Overview and Command Reference page.
+Usage
+
+To start the Angular development server, run the following command:
+
+ng serve
+
+This will start the server on http://localhost:4200. You can then navigate to this URL in your web browser to view the layout. 
+The build artifacts will be stored in the dist/ directory.
+
+Contributing
+
+Contributions to this project are welcome. If you find a bug or have a suggestion for improvement, please create an issue or submit a pull request.
